@@ -1,0 +1,48 @@
+[
+  {
+    "ProductId": 162,
+    "Description": "All-occasion value bike with our basic comfort and safety features. Offers wider, more stable tires for a ride around town or weekend trip.",
+    "Price": 742.35,
+    "Sku": "BK-T18U-44",
+    "Name": "Touring-3000 Blue, 44",
+    "LargePhotoSrc": "julianax_r_02_blue_large",
+    "LargePhotofilename": "julianax_r_02_blue_large.gif",
+    "ThumbnailPhotoSrc": "julianax_r_02_blue_small",
+    "ThumbnailPhotoFileName": "julianax_r_02_blue_small.gif",
+    "ProductSubcategoryId": 3,
+    "ProductCategoryId": 1
+  },
+  {
+    "ProductId": 148,
+    "Description": "Serious back-country riding. Perfect for all levels of competition. Uses the same HL Frame as the Mountain-100.",
+    "Price": 2294.99,
+    "Sku": "BK-M68B-38",
+    "Name": "Mountain-200 Black, 38",
+    "LargePhotoSrc": "hotrodbike_black_large",
+    "LargePhotofilename": "hotrodbike_black_large.gif",
+    "ThumbnailPhotoSrc": "hotrodbike_black_small",
+    "ThumbnailPhotoFileName": "hotrodbike_black_small.gif",
+    "ProductSubcategoryId": 1,
+    "ProductCategoryId": 1
+  },
+  {
+    "ProductId": 193,
+    "Description": "Cross-train, race, or just socialize on a sleek, aerodynamic bike designed for a woman.  Advanced seat technology provides comfort all day.",
+    "Price": 1700.99,
+    "Sku": "BK-R79Y-40",
+    "Name": "Road-350-W Yellow, 40",
+    "LargePhotoSrc": "roadster_yellow_f_large",
+    "Largephotofilename": "roadster_yellow_f_large.gif",
+    "ThumbnailPhotoSrc": "roadster_yellow_f_small",
+    "ThumbnailPhotoFileName": "roadster_yellow_f_small.gif",
+    "ProductModelId": 27,
+    "ProductCategoryId": 1,
+    "ProductSubcategoryId": 2,
+    "Size": "40",
+    "SizeUnitMeasureCode": "CM ",
+    "Weight": 15.35,
+    "WeightUnitMeasureCode": "LB ",
+    "Color": "Yellow",
+    "LineCount": 0
+  }
+]

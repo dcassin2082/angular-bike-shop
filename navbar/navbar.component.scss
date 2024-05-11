@@ -1,0 +1,187 @@
+$background: #264278;
+$background: #222c3f;
+
+.bg-logo {
+  background-color: #7d9ee0;
+}
+.iconClass {
+  position: relative;
+}
+.iconClass span {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: block;
+}
+
+.bg-dark {
+  background-color: #0080ff !important;
+  background-color: #333f55 !important;
+}
+
+.fa .fa-shopping-cart {
+  background: #264278;
+}
+.btn-link {
+  color: #fff !important;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  color: #b7c7e7 !important;
+}
+// .active .nav-item {
+//   background: #8198b8 !important;
+//   color: #fff;
+// }
+
+.active .nav-link {
+  // background: #278aee;
+  // background: #5584f1;
+  // border-radius: 4px;
+  border-bottom: solid 1px #fff;
+  //   color: #dadada !important;
+}
+
+@media screen and (max-width: 991px) {
+  .active .nav-link {
+    // background: #278aee;
+    // background: #5584f1;
+    // border-radius: 4px;
+    border-bottom: none;
+    //   color: #dadada !important;
+  }
+}
+.nav-link {
+  color: #fff !important;
+}
+.nav-link:hover {
+  cursor: pointer;
+  //   background: #a3c7eb !important;
+  border-radius: 4px;
+}
+
+.p-logo-lg {
+  line-height: 20px;
+  word-spacing: -8px;
+  padding-top: 100px;
+}
+
+.p-logo-lower-lg {
+  // font-family: Georgia;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+}
+
+.p-logo-upper-lg {
+  // font-family: Georgia;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.p-logo {
+  line-height: 10px;
+  word-spacing: -8px;
+}
+
+.p-logo-lower {
+  // font-family: Georgia;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #fff;
+  // font-weight: bold;
+  position: relative;
+  top: 10px;
+  border-radius: 20%;
+  // border: solid 1px #dadada;
+  padding: 2px;
+}
+
+.p-logo-upper {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+}
+
+// /* The container <div> - needed to position the dropdown content */
+// .dropdown {
+//   position: relative;
+//   display: inline-block;
+// }
+
+// /* Dropdown Content (Hidden by Default) */
+// .dropdown-content {
+//   display: none;
+//   position: absolute;
+//   background-color: #f1f1f1;
+//   min-width: 160px;
+//   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+//   z-index: 1;
+// }
+
+// /* Links inside the dropdown */
+// .dropdown-content a {
+//   color: black;
+//   padding: 12px 16px;
+//   text-decoration: none;
+//   display: block;
+// }
+
+// /* Change color of dropdown links on hover */
+// .dropdown-content a:hover {
+//   background-color: #ddd;
+// }
+
+// .dropdown-item {
+//   border: 0.1px solid #dbd8d1 !important;
+//   color: #967f65;
+//   color: rgb(81, 81, 90);
+//   font-weight: 400;
+// }
+
+// .dropdown-menu{
+//   background: #fff;
+//   border: solid 1px #dadada;
+//   padding: 0;
+// }
+
+// .active .nav-item {
+//   background: #8198b8 !important;
+//   color: #fff;
+// }
+
+// .active .nav-link {
+//   background: rgb(255, 60, 60);
+//   background: sandybrown;
+//   color: #fff !important;
+// }
+// /* .dropdown-menu > a:nth-child(odd) {
+//   background: #dadada !important;
+// }
+// .dropdown-menu > a:nth-child(even) {
+//   background: #d3bea2 !important;
+// } */
+
+.dropdown-item.active {
+  background: #798db8 !important;
+}
+
+.dropdown-item:hover {
+  background: #c0b7a2 !important;
+  background: #798db8 !important;
+  color: #fff !important;
+  background: #3fb0ac !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}

@@ -1,0 +1,85 @@
+$logo1: #b7c7e7;
+$logo2: #e6eaf1;
+$background: #26303b;
+$card-title: rgb(197, 69, 69);
+$button-background: #4f76c4;
+$button-background-hover: #6690e4;
+$white: #fff;
+
+.btn-secondary {
+  background-color: $button-background !important;
+  border: transparent !important;
+  padding: 1rem;
+}
+
+.btn-secondary:hover {
+  background-color: $button-background-hover !important;
+}
+
+.logo-first {
+  color: $logo1;
+}
+
+.logo-second {
+  color: $logo2;
+}
+
+.card {
+  box-shadow: 2px 2px 2px #dadada;
+  border-radius: 15px;
+}
+
+.card-footer {
+  background-color: #26303b !important;
+  border: transparent;
+}
+
+.card-footer h6 {
+  color: blanchedalmond !important;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: translateY(-4px) !important;
+  cursor: pointer;
+  h5 {
+    color: $card-title;
+  }
+  h6 {
+    color: $logo1;
+  }
+}
+
+// .hero-container {
+//   padding-top: 100px;
+//   height: 600px;
+//   background-color: $background;
+// }
+// h1,
+// h2 {
+//   color: #26303b;
+//   font-weight: 600;
+// }
+
+// h5 {
+//   color: $background;
+// }
+
+// .hero-container .container img {
+//   background-color: $logo1;
+//   border-radius: 10px;
+//   border: solid 2px $logo2;
+//   box-shadow: 2px 2px 2px 4px $logo2;
+// }
+// .hero-container .container h1 {
+//   font-size: 3.5rem;
+// }
+
+// @media screen and (max-width: 767px) {
+//   .hero-container .container img {
+//     display: none;
+//   }
+//   .hero-container .container h1 {
+//     font-size: 2.5rem;
+//   }
+// }

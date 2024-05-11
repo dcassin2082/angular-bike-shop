@@ -1,0 +1,222 @@
+<nav class="navbar bg-dark fixed-top navbar-expand-lg mb-5">
+  <div class="container">
+    <a class="btn btn-brand navbar-brand text-white" [routerLink]="['home']">
+      <div>AB</div>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link active"
+            title="Home"
+            [routerLinkActive]="['active']"
+            [routerLink]="['home']"
+            [routerLinkActiveOptions]="{ exact: true, isActive: true }"
+            >Home</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="All Products"
+            [routerLinkActive]="['active']"
+            [routerLink]="['products']"
+            >Products</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="Shopping Cart"
+            [routerLinkActive]="['active']"
+            [routerLink]="['shopping-cart']"
+            >Shopping Cart</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="Checkout"
+            [routerLinkActive]="['active']"
+            [routerLink]="['checkout']"
+            >Checkout</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="Confirmation"
+            [routerLinkActive]="['active']"
+            [routerLink]="['confirmation']"
+            >Confirmation</a
+          >
+        </li>
+
+        <!-- <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="All Products"
+            [routerLinkActive]="['active']"
+            [routerLink]="['bikes']"
+            >Bikes</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="All Products"
+            [routerLinkActive]="['active']"
+            [routerLink]="['components']"
+            >Components</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="Leet Code Questions"
+            [routerLinkActive]="['active']"
+            [routerLink]="['clothing']"
+            >Clothing</a
+          >
+        </li>
+        <li
+          class="nav-item"
+          [routerLinkActive]="['active']"
+          data-bs-target=".navbar-collapse.show"
+          data-bs-toggle="collapse"
+        >
+          <a
+            class="nav-link"
+            title="Experience"
+            [routerLinkActive]="['active']"
+            [routerLink]="['accessories']"
+            >Accessories</a
+          >
+        </li>
+
+
+       <NavLink to="/cart" className="btn btn-ghost btn-circle btn-md ml-4">
+            <div className="indicator">
+              <BsCart3 className="h-6 w-6" />
+              <span className="badge badge-sm badge-primary indicator-item">
+                {numItemsInCart}
+              </span>
+            </div>
+          </NavLink>
+
+      --></ul>
+      <form class="d-flex">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+            <a
+              (click)="productService.goToCart()"
+              class="btn btn-link pull-right"
+            >
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a
+              class="btn btn-link pull-right position-relative"
+              style="background-color: #69748a"
+              (click)="productService.goToCart()"
+            >
+              <i class="fa fa-shopping-cart"> </i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-logo"
+              >
+                {{ productService.productsCount }}
+              </span>
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://github.com/dcassin2082/angular-ecommerce"
+              target="_blank"
+              title="Github"
+              ><i class="fa fa-github-square fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.youtube.com/channel/UCWUeSMVv-c0tXM8dPoDv8vQ/"
+              target="_blank"
+              title="Youtube"
+              ><i class="fa fa-youtube-play fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://www.linkedin.com/in/daniel-cassin-6a12bb287/"
+              target="_blank"
+              title="LinkedIn"
+              ><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://learn.microsoft.com/en-us/users/23538295/credentials/d5e9cb23f8228d11"
+              target="_blank"
+              title="Azure 900 Certification"
+              ><i class="fa fa-windows fa-white"></i>
+            </a>
+          </li> -->
+        </ul>
+      </form>
+    </div>
+  </div>
+</nav>
